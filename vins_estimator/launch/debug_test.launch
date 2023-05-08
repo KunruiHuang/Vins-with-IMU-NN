@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find vins_estimator)/launch/advio.launch"/>
+     <include file="$(find vins_estimator)/launch/vins_rviz.launch"/>
+</launch>
